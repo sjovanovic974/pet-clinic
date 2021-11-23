@@ -1,5 +1,14 @@
-sasa\jovanovic\petclinic\model\Person.class
-sasa\jovanovic\petclinic\model\Pet.class
 sasa\jovanovic\petclinic\model\Vet.class
+sasa\jovanovic\petclinic\services\map\AbstractMapService.class
+sasa\jovanovic\petclinic\services\VetService.class
+sasa\jovanovic\petclinic\services\OwnerService.class
+sasa\jovanovic\petclinic\model\Pet.class
+sasa\jovanovic\petclinic\services\map\OwnerServiceMap.class
+sasa\jovanovic\petclinic\services\map\PetServiceMap.class
 sasa\jovanovic\petclinic\model\Owner.class
 sasa\jovanovic\petclinic\model\PetType.class
+sasa\jovanovic\petclinic\model\Person.class
+sasa\jovanovic\petclinic\services\PetService.class
+sasa\jovanovic\petclinic\services\CrudService.class
+sasa\jovanovic\petclinic\model\BaseEntity.class
+sasa\jovanovic\petclinic\services\map\VetServiceMap.class

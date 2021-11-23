@@ -1,5 +1,14 @@
 C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\PetType.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\VetService.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\map\PetServiceMap.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\PetService.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\CrudService.java
 C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\Pet.java
-C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\Owner.java
 C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\Vet.java
 C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\Person.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\map\VetServiceMap.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\map\OwnerServiceMap.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\OwnerService.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\BaseEntity.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\services\map\AbstractMapService.java
+C:\Users\PC-Admin\IdeaProjects\Spring5\pet-clinic\pet-clinic-data\src\main\java\sasa\jovanovic\petclinic\model\Owner.java

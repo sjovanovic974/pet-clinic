@@ -1,1 +1,5 @@
+sasa\jovanovic\petclinic\controllers\IndexController.class
+sasa\jovanovic\petclinic\controllers\VetController.class
+sasa\jovanovic\petclinic\controllers\OwnerController.class
+sasa\jovanovic\petclinic\bootstrap\DataLoader.class
 sasa\jovanovic\petclinic\PetClinicApplication.class
