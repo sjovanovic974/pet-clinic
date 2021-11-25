@@ -1,5 +1,6 @@
 package sasa.jovanovic.petclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import sasa.jovanovic.petclinic.model.Visit;
 import sasa.jovanovic.petclinic.services.VisitService;
@@ -7,6 +8,7 @@ import sasa.jovanovic.petclinic.services.VisitService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
     @Override
     public Set<Visit> findAll() {
