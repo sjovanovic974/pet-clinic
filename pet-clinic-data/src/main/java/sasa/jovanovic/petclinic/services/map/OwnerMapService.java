@@ -1,4 +1,5 @@
 package sasa.jovanovic.petclinic.services.map;
+
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import sasa.jovanovic.petclinic.model.Owner;
@@ -42,7 +43,7 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
         if (object != null) {
             if (object.getPets() != null) {
                 object.getPets().forEach(pet -> {
-                    if(pet.getPetType() != null){
+                    if (pet.getPetType() != null) {
                         if (pet.getPetType().getId() == null) {
                             pet.setPetType(petTypeService.save(pet.getPetType()));
                         }
@@ -69,6 +70,10 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Owner findByLastName(String lastName) {
-        return null;
+        return this.findAll()
+                .stream()
+                .filter(owner -> owner.getLastName().equalsIgnoreCase(lastName))
+                .findFirst()
+                .orElse(null);
     }
 }
