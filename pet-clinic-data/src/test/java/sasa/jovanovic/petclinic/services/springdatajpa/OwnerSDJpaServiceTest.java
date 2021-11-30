@@ -29,12 +29,6 @@ class OwnerSDJpaServiceTest {
     @Mock
     OwnerRepository ownerRepository;
 
-    @Mock
-    PetRepository petRepository;
-
-    @Mock
-    PetTypeRepository petTypeRepository;
-
     @InjectMocks
     OwnerSDJpaService ownerService;
 
@@ -106,7 +100,7 @@ class OwnerSDJpaServiceTest {
     @Test
     void findByLastName() {
 
-        when(ownerRepository.findByLastName(any())).thenReturn(Optional.ofNullable(returnOwner));
+        when(ownerRepository.findByLastName(any())).thenReturn(Optional.of(returnOwner));
 
         Owner smith = ownerService.findByLastName(LAST_NAME);
 
